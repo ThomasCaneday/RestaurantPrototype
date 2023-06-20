@@ -1,0 +1,105 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #000;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+}
+
+.head {
+    position: absolute;
+    border: 0;
+    margin: 0;
+    width: 97%;
+    padding: 20px;
+    background-color: #000;
+    color: rgb(111, 100, 82);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    position: absolute;
+}
+
+.email {
+    color: rgb(132, 115, 93);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    margin: 150px 0px 100px 10px;
+    /* width: min-content; */
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: Cochin;
+}
+
+.phone {
+    color: rgb(132, 115, 93);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    margin: 100px 0px 10px 10px;
+    /* width: min-content; */
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: Cochin;
+}
+
+.address {
+    color: rgb(132, 115, 93);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    margin: 100px 0px 100px 10px;
+    /* width: min-content; */
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: Cochin;
+}
+
+/* .email:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 15px;
+} */
+
+/* .phone:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 15px;
+} */
+
+/* .address:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 15px;
+} */
+
+.image {
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    border: solid 15px #000;
+}

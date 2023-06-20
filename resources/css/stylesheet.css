@@ -1,0 +1,121 @@
+/* content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); 
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );  */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #000;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+}
+
+.head {
+    position: absolute;
+    border: 0;
+    margin: 0;
+    width: 97%;
+    padding: 20px;
+    background-color: #000;
+    color: rgb(111, 100, 82);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: left;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    position: absolute;
+}
+
+.menu {
+    color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    margin: 100px 0px 25px 10px;
+    width: min-content;
+    font-weight: bold;
+    text-align: left;
+    font-size: 125px;
+    letter-spacing: 50px;
+    font-family: Cochin;
+    font-style: none;
+}
+
+.about {
+    color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    margin: 25px 0px 25px 10px;
+    width: min-content;
+    font-weight: bold;
+    text-align: left;
+    font-size: 125px;
+    letter-spacing: 50px;
+    font-family: Cochin;
+    font-style: none;
+}
+
+.contact {
+    color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    margin: 25px 0px 25px 10px;
+    width: min-content;
+    font-weight: bold;
+    text-align: left;
+    font-size: 125px;
+    letter-spacing: 50px;
+    font-family: Cochin;
+    font-style: none;
+}
+
+.menu:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 55px;
+}
+
+.about:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 55px;
+}
+
+.contact:hover {
+    cursor: pointer;
+    color: rgba(22, 17, 9, 0.95);
+    font-weight: bolder;
+    transition: 0.5s;
+    letter-spacing: 55px;
+}
+
+.image {
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    border: solid 15px #000;
+}
